@@ -9,14 +9,16 @@ h1{
 span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 
     
 }
 .half-width{
     width: 50%;
     margin-left: 15px;
+    
 }
 .half-width img{
     width: 50%;
@@ -41,4 +43,31 @@ section{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    border-left: 1px solid #000;
+}
+#wde{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#fse{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
